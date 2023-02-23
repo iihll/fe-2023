@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.10.1",
+    "vue": "^3.2.45",
+    "vue3-html2pdf": "^1.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.58.3",
+    "vite": "^4.1.0"
+  }
+}
