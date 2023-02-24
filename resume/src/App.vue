@@ -64,12 +64,11 @@ const handleCLick = () => {
         </div>
 
         <div class="content">
-          <div>负责自游家汽车 C 端产品功能的前端开发工作</div>
-          <div>1. 根据产品需求、UI 设计稿完成前端开发任务。</div>
-          <div>2. 根据接口文档，完成前后端的联调。</div>
-          <div>3. 完成测试、验收过程中的 bug 修复。</div>
-          <div>4. 参与 Web 前端开发规范的制定。</div>
-          <div>5. 解决原有功能的浏览器兼容性问题。</div>
+          <div>1. 负责自游家汽车 C 端产品功能的前端开发与管理工作。</div>
+          <div>2. 产品需求评审、测试用例评审、跨部门工作协调。</div>
+          <div>3. 根据产品需求难点进行技术调研。</div>
+          <div>4. 参与产品前端技术选型与开发规范的制定。</div>
+          <div>5. 完成测试、验收过程中的 bug 修复。</div>
         </div>
       </div>
 
@@ -88,12 +87,12 @@ const handleCLick = () => {
           </div>
           <div>
             3. 设计并不断优化调整项目的架构组织，模块划分，代码
-            review，保证项目功能达标和成员能充分的了解项目代码组。织，对项目有持续更新的认识。
+            review，保证项目功能达标和成员能充分的了解项目代码组织，对项目有持续更新的认识。
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="prj">
       <div class="title">项目经历</div>
 
@@ -254,9 +253,16 @@ const handleCLick = () => {
   }
 }
 
+.skills {
+  .skill-list {
+    line-height: 24px;
+  }
+}
+
 .work {
   .item {
     margin-bottom: 12px;
+
     .info {
       display: flex;
       margin-bottom: 12px;
@@ -264,6 +270,10 @@ const handleCLick = () => {
       div {
         flex: 1;
       }
+    }
+
+    .content {
+      line-height: 24px;
     }
   }
 }
@@ -271,6 +281,7 @@ const handleCLick = () => {
 .prj {
   .item {
     margin-bottom: 12px;
+
     .info {
       display: flex;
       margin-bottom: 12px;
@@ -279,16 +290,22 @@ const handleCLick = () => {
         flex: 1;
       }
     }
+
+    .content {
+      line-height: 24px;
+    }
   }
 }
 
 .title {
+  display: flex;
+  align-items: center;
   font-size: 24px;
   font-weight: bold;
   background-color: lightblue;
   color: white;
   border-radius: 12px;
-  padding: 4px;
+  padding: 4px 4px 8px;
   margin: 12px 0;
 }
 </style>
