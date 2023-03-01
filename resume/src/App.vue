@@ -14,6 +14,8 @@ const handleCLick = () => {
       <div>年龄：26</div>
       <div>电话：18735363391</div>
       <div>邮箱：52966149@qq.com</div>
+      <div>工作经验：3年</div>
+      <div></div>
     </div>
 
     <div class="edu">
@@ -30,26 +32,22 @@ const handleCLick = () => {
 
       <div class="skill-list">
         <div>
-          1. 熟练使用原生 JavaScript 以及常用 JavaScript 库，如
+          1. 熟练使用 HTML、CSS、JavaScript 以及常用 JavaScript 库，如
           lodash、Echarts、axios、Ant-design，Element-UI
           等，快速实现响应式网页的开发。
         </div>
 
         <div>
-          2. 有 JS 性能优化实践经验；熟练使用 ES6
-          及更高版本发布的语言特性和语法。
+          2. 有 JS 性能优化实践经验；熟练使用 ES6及更高版本发布的语言特性和语法。
         </div>
         <div>
-          3. 熟练使用 Vue
-          全家桶进行单页应用开发，并对其源码有认识和了解，有完整的项目开发经验。
+          3. 熟练使用 Vue、Vuex、Vue-Router 进行单页应用开发，并对 Vue 响应式、nextTick、keep-alive 原理有深入了解，有完整的项目开发经验。
         </div>
         <div>4. 熟练使用 uni-app 及相关生态进行移动端小程序、H5的开发。</div>
-        <div>5. 能够使用 React 全家桶进行开发，并有实战经验。</div>
         <div>
-          6. 熟练使用 Git
-          版本工具进行代码控制与协作；能手动部署前端项目，并能完成自动化部署，了解
-          Linux 的使用。
+          5. 熟练使用 Git 版本工具进行代码版本控制，并熟悉 git 多人协作工作流程。
         </div>
+        <div>6. 能够使用 React 全家桶进行开发，并有实战经验。</div>
       </div>
     </div>
 
